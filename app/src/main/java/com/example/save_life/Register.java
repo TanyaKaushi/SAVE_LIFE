@@ -73,7 +73,7 @@ public class Register extends AppCompatActivity {
 
                         //ref.push().setValue(reg);
                         ref.child("Reg").setValue(reg);
-                        Toast.makeText(getApplicationContext(), "Data inserted succesfully", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "Data inserted successfully", Toast.LENGTH_LONG).show();
 
                         Intent i = new Intent(getApplicationContext(), Profile.class);
                         clearControls();

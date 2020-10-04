@@ -2,13 +2,16 @@ package com.example.save_life;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class List1 extends AppCompatActivity {
 
     TextView at,bt,ct,dt,et,ft,gt,ht,hospital,contact,city;
-
+    Button btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +28,7 @@ public class List1 extends AppCompatActivity {
         hospital = findViewById(R.id.hospital);
         city = findViewById(R.id.city);
         contact = findViewById(R.id.contact);
+        btn = findViewById(R.id.button2);
 
         String as = getIntent().getStringExtra("aa");
         String bs = getIntent().getStringExtra("bb");
@@ -49,6 +53,14 @@ public class List1 extends AppCompatActivity {
         hospital.setText(hos);
         city.setText(cit);
         contact.setText(con);
+
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(),Retrieve_Hos.class);
+                startActivity(i);
+            }
+        });
 
 
     }

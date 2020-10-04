@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Retrieve_Hos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="All Hospitals"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="36sp"
+                    android:fontFamily="sans-serif-thin"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="75dp"
+                    android:layout_marginTop="40dp"
+                    android:text="@string/str_card_text11"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="24sp" />
+
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="172dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/str_card_text60"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="18sp" />
+
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="139dp"
+                    android:layout_height="37dp"
+                    android:layout_marginLeft="110dp"
+                    android:background="@drawable/cus_b1"
+                    android:text="Send Request"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="75dp"
+                    android:layout_marginTop="50dp"
+                    android:text="@string/str_card_text61"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="169dp"
+                    android:layout_height="199dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/str_card_text60"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="139dp"
+                    android:layout_height="37dp"
+                    android:layout_marginLeft="110dp"
+                    android:background="@drawable/cus_b1"
+                    android:text="Send Request"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="20dp"/>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

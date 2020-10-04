@@ -51,6 +51,26 @@
     </string-array>
 
 
+    <string name="str_card_text11"> ABC Hospital</string>
+    <string name="str_card_text12"> A+  </string>
+    <string name="str_card_text13"> A- </string>
+    <string name="str_card_text14"> B+</string>
+    <string name="str_card_text15"> B-</string>
+    <string name="str_card_text16">AB+ </string>
+    <string name="str_card_text17"> AB-</string>
+    <string name="str_card_text18"> O+</string>
+    <string name="str_card_text19"> O-</string>
+    <string name="str_card_text20"> | Yes</string>
+    <string name="str_card_text21"> | No </string>
+    <string name="str_card_text22"> City :  Colombo</string>
+    <string name="str_card_text23"> Contact : 0112111111</string>
+    <string name="str_card_text24"> Available Blood Groups</string>
+    <string name="str_card_text61"> BB Hospital</string>
+    <string name="str_card_text60">
+        Availability A+    : Yes Availability A-    : No Availability B+    : Yes Availability B- : Yes Availability AB+ : Yes Availability AB- : Yes Availability O+ : Yes Availability O- : No  City : Colombo
+    </string>
+
+
     <string name="invalid_hospital_name">Please Enter a Name</string>
     <string name="invalid_phone_number">Please Enter a Valid Phone Number</string>
     <string name="invalid_city">Please Enter a City</string>
@@ -58,6 +78,40 @@
     <string name="invalid_password">Please Enter Correct Password</string>
     <string name="invalid_name">Please Enter a Name</string>
 
+
+    <string name="phone_hint">Phone</string>
+    <string name="phonehint">phone_hint2</string>
+
+    <string name="invalid_blood">Enter Valid Blood Group</string>
+    <string name="invalid_mobile">Enter Valid Mobile Number</string>
+    <string name="invalid_duration">Enter Timer Duration</string>
+    <string name="add_detailsbtntx">Add Details</string>
+    <string name="view_detailstxt">View Details</string>
+    <string name="need_helptitle">Need Help</string>
+    <string name="invalid_Birthday">Enter Birthday</string>
+    <string name="Invalid_blood2">Enter Blood Group</string>
+    <string name="Invalid_BloodG">Enter Blood Group</string>
+    <string name="request_blood">Request Blood</string>
+    <string name="confirm">Confirm</string>
+    <string name="request_blood_btn">Request Blood</string>
+    <string name="donate_blood_btn">Donate Blood</string>
+    <string name="confirm_details">Confirm Details</string>
+    <string name="update_btn">Update</string>
+    <string name="delete_btn">Delete</string>
+    <string name="home_btn">Home</string>
+    <string name="update_details">Update Details</string>
+
+    <string-array name="Bloodgroup">
+        <item>Blood Group</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
 
 
 </resources>
