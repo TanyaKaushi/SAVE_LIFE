@@ -1,0 +1,63 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name"> Save_Life </string>
+
+
+    <string name="str_card_text"> Name  :  Tanya Kaushi            Blood Group  :      B+          City  :  Malabe</string>
+    <string name="str_card_text1"> Name  :  Navodya Himashi      Blood Group  :      O-   City  :  Kaduwela </string>
+    <string name="str_card_text2"> Name : Tanya Kaushi </string>
+    <string name="str_card_text3"> Blood Group : B+ </string>
+    <string name="str_card_text4"> City : Malabe </string>
+    <string name="str_card_text5"> Age : 20 </string>
+    <string name="str_card_text6"> Gender : female </string>
+    <string name="str_card_text7"> Contact : 0714859372 </string>
+    <string name="str_card_text8"> Email : tanya@gmail.com </string>
+    <string name="str_card_text9"> UPDATE DONOR  </string>
+    <string name="str_card_text10"> ADD NEW DONOR  </string>
+    <string name="donor_info">DONOR INFORMATION</string>
+    <string name="view_donor_list">View Donor List</string>
+    <string name="request_message_box">Request Message Box</string>
+    <string name="add_new_donor">Add New Donor</string>
+
+
+    <string-array name="spinnerBlood">
+        <item>Select Your Blood Group</item>
+        <item>A</item>
+        <item>A+</item>
+        <item>B</item>
+        <item>B+</item>
+        <item>O</item>
+        <item>O+</item>
+        <item>AB</item>
+        <item>AB+</item>
+    </string-array>
+
+
+    <string-array name="spinnerGender">
+        <item>Select Gender</item>
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+
+
+    <string-array name="Spinner_items">
+        <item>Select</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="Spinner_it">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+
+    <string name="invalid_hospital_name">Please Enter a Name</string>
+    <string name="invalid_phone_number">Please Enter a Valid Phone Number</string>
+    <string name="invalid_city">Please Enter a City</string>
+    <string name="invalid">Please Enter The Status</string>
+    <string name="invalid_password">Please Enter Correct Password</string>
+    <string name="invalid_name">Please Enter a Name</string>
+
+
+
+</resources>
