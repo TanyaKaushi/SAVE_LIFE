@@ -6,6 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".Profile">
 
+    <Button
+        android:id="@+id/btnhos"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:background="@drawable/custom_button"
+        android:text="Hospital list"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.938" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
@@ -41,7 +57,7 @@
     <Button
         android:id="@+id/button"
         android:layout_width="250dp"
-        android:layout_height="80dp"
+        android:layout_height="60dp"
         android:background="@drawable/custom_button"
         android:text="@string/view_donor_list"
         android:textColor="#ffffff"
@@ -57,7 +73,7 @@
     <Button
         android:id="@+id/btnmsg"
         android:layout_width="250dp"
-        android:layout_height="80dp"
+        android:layout_height="60dp"
         android:background="@drawable/custom_button"
         android:text="@string/request_message_box"
         android:textColor="#ffffff"
@@ -68,12 +84,12 @@
         app:layout_constraintHorizontal_bias="0.77"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.906" />
+        app:layout_constraintVertical_bias="0.812" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="250dp"
-        android:layout_height="80dp"
+        android:layout_height="60dp"
         android:background="@drawable/custom_button"
         android:text="@string/add_new_donor"
         android:textColor="#ffffff"
@@ -84,7 +100,7 @@
         app:layout_constraintHorizontal_bias="0.77"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.725" />
+        app:layout_constraintVertical_bias="0.684" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -108,7 +124,7 @@
         app:layout_constraintHorizontal_bias="0.121"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.718"
+        app:layout_constraintVertical_bias="0.674"
         app:srcCompat="@drawable/adddo" />
 
     <ImageView
@@ -120,7 +136,7 @@
         app:layout_constraintHorizontal_bias="0.121"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.888"
+        app:layout_constraintVertical_bias="0.8"
         app:srcCompat="@drawable/msg" />
 
     <TextView
@@ -136,6 +152,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.437" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="101dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.925"
+        app:srcCompat="@drawable/hos" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

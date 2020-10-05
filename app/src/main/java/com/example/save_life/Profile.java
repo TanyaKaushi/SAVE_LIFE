@@ -11,7 +11,7 @@ import android.widget.TextView;
 public class Profile extends AppCompatActivity {
 
     private Button button;
-    private Button button3;
+    Button button3 , buttonhos;
     private Button msg;
     TextView pro;
 
@@ -19,6 +19,8 @@ public class Profile extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
+
+        buttonhos = findViewById(R.id.btnhos);
 
         pro = findViewById(R.id.view);
         pro.setOnClickListener(new View.OnClickListener() {
@@ -45,6 +47,16 @@ public class Profile extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 openMainActivity3();
+            }
+        });
+
+
+        buttonhos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent i = new Intent(getApplicationContext(),Retrieve_Hos.class);
+                startActivity(i);
             }
         });
 

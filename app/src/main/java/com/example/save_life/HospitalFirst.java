@@ -15,7 +15,7 @@ public class HospitalFirst extends AppCompatActivity {
 
     DatabaseReference Ref;
     FirebaseDatabase database;
-    Button button,button1;
+    Button button,button1,button2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +24,7 @@ public class HospitalFirst extends AppCompatActivity {
 
         button = findViewById(R.id.btn4);
         button1 = findViewById(R.id.button1);
+        button2 = findViewById(R.id.btn2);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -44,6 +45,17 @@ public class HospitalFirst extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent i = new Intent(getApplicationContext(),Retrieve_Hos.class);
+                startActivity(i);
+            }
+        });
+
 
 
     }
