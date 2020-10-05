@@ -132,7 +132,7 @@ public class Add_ReqBlood extends AppCompatActivity implements AdapterView.OnIte
                     dbRef.child("D1").setValue(ned);
 
 
-                    Toast.makeText(getApplicationContext(),"Data Inserted Successfully",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),"Inserted Successfully",Toast.LENGTH_SHORT).show();
                     clear_controls();
 
 
