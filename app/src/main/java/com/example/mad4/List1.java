@@ -58,7 +58,7 @@ public class List1 extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(),Retrieve_Hos.class);
+                Intent i = new Intent(getApplicationContext(),Recycler.class);
                 startActivity(i);
             }
         });

@@ -66,7 +66,7 @@ public class List extends AppCompatActivity {
         city.setText(cit);
         contact.setText(con);*/
 
-        DatabaseReference UpRef = FirebaseDatabase.getInstance().getReference().child("add").child("1");
+        DatabaseReference UpRef = FirebaseDatabase.getInstance().getReference().child("add").child("4");
         UpRef.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -137,8 +137,8 @@ public class List extends AppCompatActivity {
                 dRef.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                        if (dataSnapshot.hasChild("1")){
-                            Ref = FirebaseDatabase.getInstance().getReference().child("add").child("1");
+                        if (dataSnapshot.hasChild("4")){
+                            Ref = FirebaseDatabase.getInstance().getReference().child("add").child("4");
                             Ref.removeValue();
 
                             Toast.makeText(getApplicationContext(),"Details Deleted Successfully..",Toast.LENGTH_SHORT).show();

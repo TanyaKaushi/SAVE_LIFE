@@ -106,7 +106,7 @@ public class UpdateBloodList extends AppCompatActivity {
         Ref.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                if(dataSnapshot.hasChild("1")){
+                if(dataSnapshot.hasChild("4")){
                     try{
                         add.Set
                     }
@@ -155,7 +155,7 @@ public class UpdateBloodList extends AppCompatActivity {
                 hashMap.put("hospital",cit);
                 hashMap.put("city",hos);
 
-                Ref.child("1").updateChildren(hashMap).addOnSuccessListener(new OnSuccessListener() {
+                Ref.child("4").updateChildren(hashMap).addOnSuccessListener(new OnSuccessListener() {
                     @Override
                     public void onSuccess(Object o) {
                         Toast.makeText(getApplicationContext(), "Successfully Updated", Toast.LENGTH_LONG).show();

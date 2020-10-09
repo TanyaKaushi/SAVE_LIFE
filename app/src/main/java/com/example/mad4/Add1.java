@@ -10,7 +10,7 @@ public class Add1 {
     private String AB_minus;
     private String O_plus;
     private String O_minus;
-    private  String hospital;
+    private String hospital;
     private String city;
     private String contact;
 
